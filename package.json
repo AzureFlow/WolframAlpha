@@ -1,0 +1,16 @@
+{
+  "name": "wolfram_alpha_api",
+  "version": "0.9.0",
+  "description": "A simple wrapper for Wolfram|Alpha's API.",
+  "keywords": [
+    "WolframAlpha",
+    "reverse engineering"
+  ],
+  "license": "MIT",
+  "author": "AzureFlow",
+  "type": "module",
+  "main": "lib/WolframAlphaAPI.js",
+  "engines": {
+    "node": ">=18.0"
+  }
+}
