@@ -1,15 +1,20 @@
 {
-  "name": "wolfram_alpha_api",
-  "version": "0.9.0",
+  "name": "@azureflow/wolfram_alpha_api",
+  "version": "1.0.0",
   "description": "A simple wrapper for Wolfram|Alpha's API.",
   "keywords": [
     "WolframAlpha",
     "reverse engineering"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AzureFlow/WolframAlpha.git"
+  },
   "license": "MIT",
   "author": "AzureFlow",
   "type": "module",
   "main": "lib/WolframAlphaAPI.js",
+  "packageManager": "^pnpm@8.6.7",
   "engines": {
     "node": ">=18.0"
   }
