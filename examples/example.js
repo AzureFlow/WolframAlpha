@@ -1,5 +1,4 @@
-import QueryBuilder from "../lib/QueryBuilder.js";
-import WolframAlphaAPI from "../lib/WolframAlphaAPI.js";
+import {WolframAlphaAPI, QueryBuilder} from "@azureflow/wolfram_alpha_api";
 import {inspect} from "node:util";
 
 

@@ -4,11 +4,16 @@ This project is a simple wrapper around Wolfram|Alpha's API using a reverse engi
 
 See Wolfram|Alpha's API [docs](https://products.wolframalpha.com/api/documentation/) for more information.
 
+## Install
+
+```sh
+npm install @azureflow/wolfram_alpha_api
+```
+
 ## Example
 
 ```js
-import QueryBuilder from "../lib/QueryBuilder.js";
-import WolframAlphaAPI from "../lib/WolframAlphaAPI.js";
+import {WolframAlphaAPI, QueryBuilder} from "@azureflow/wolfram_alpha_api";
 
 const waApi = new WolframAlphaAPI();
 const query = new QueryBuilder()
